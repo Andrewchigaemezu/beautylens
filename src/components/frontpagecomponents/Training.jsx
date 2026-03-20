@@ -191,10 +191,18 @@ function Training() {
         </motion.ul>
       </main>
       <div className={style.training_cta_cont}>
-        <a href="#" className={style.training_btn1}>
+        <a
+          href="https://wa.me/+2348143875001"
+          target="blank"
+          className={style.training_btn1}
+        >
           <P18>Apply for Training</P18>
         </a>
-        <a href="#" className={style.training_btn2}>
+        <a
+          href="https://wa.me/+2348143875001"
+          target="blank"
+          className={style.training_btn2}
+        >
           <P18>Book our services</P18>
         </a>
       </div>

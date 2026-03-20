@@ -47,7 +47,11 @@ function About() {
               regardless of physical ability or background, has access to
               quality training, equal opportunities, and the chance to thrive.
             </P18>
-            <a href="#" className={style.about_card_btn}>
+            <a
+              href="https://wa.me/+2348143875001"
+              target="blank"
+              className={style.about_card_btn}
+            >
               <P18>Book a session</P18>
             </a>
           </div>
@@ -63,7 +67,9 @@ function About() {
               independence.
             </P18>
             <a href="#" className={style.about_card_btn_2}>
-              <P18>Book a session</P18>
+              <P18 href="https://wa.me/+2348143875001" target="blank">
+                Book a session
+              </P18>
             </a>
           </div>
         </figure>

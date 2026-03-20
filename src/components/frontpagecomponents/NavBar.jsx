@@ -48,7 +48,11 @@ function NavBar() {
             </a>
           </li>
         </ul>
-        <a href="#" className={style.navbar_btn}>
+        <a
+          href="https://wa.me/+2348143875001"
+          target="blank"
+          className={style.navbar_btn}
+        >
           <P18>Join us now</P18>
         </a>
         {!modalIsOpen ? (

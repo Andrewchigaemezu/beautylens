@@ -76,13 +76,20 @@ function Contact() {
                 <div className={style.contact_card_circle}>
                   <img src={mailIcon} alt="mail icon" />
                 </div>
-                <P18B>elechiandrewchigaemezu@gmail.com</P18B>
+                <a
+                  href="mailto:beautylensbyjoyspark@gmail.com"
+                  className={style.contact_card_btn}
+                >
+                  <P18B>beautylensbyjoyspark@gmail.com</P18B>
+                </a>
               </li>
               <li>
                 <div className={style.contact_card_circle}>
                   <img src={phoneIcon} alt="phone icon" />
                 </div>
-                <P18B>+2349016382289</P18B>
+                <a href="tel:+2348143875001" className={style.contact_card_btn}>
+                  <P18B>+2348143875001</P18B>
+                </a>
               </li>
             </ul>
           </div>

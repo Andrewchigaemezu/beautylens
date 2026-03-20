@@ -107,6 +107,12 @@
   margin-bottom: 3.2rem;
 }
 
+.contact_card_btn:link,
+.contact_card_btn:visited {
+  display: inline-block;
+  color: var(--dark-color);
+  text-decoration: none;
+}
 .contact_card_circle {
   height: 4rem;
   width: 4rem;

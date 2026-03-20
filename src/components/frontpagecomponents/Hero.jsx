@@ -45,7 +45,11 @@ function Hero() {
                 <P18>Makeup Tutorial</P18>
               </li>
               <li>
-                <a href="#" className={style.hero_btn}>
+                <a
+                  href="https://wa.me/+2348143875001"
+                  target="blank"
+                  className={style.hero_btn}
+                >
                   <P18>Book a session</P18>
                 </a>
               </li>

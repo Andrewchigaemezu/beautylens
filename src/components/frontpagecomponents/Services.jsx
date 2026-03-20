@@ -18,7 +18,11 @@ function Services() {
           Our goal is to create a beauty ecosystem where ability is recognized
           over limitation,{" "}
         </P18>
-        <a href="#" className={style.service_btn}>
+        <a
+          href="https://wa.me/+2348143875001"
+          target="blank"
+          className={style.service_btn}
+        >
           <P18>Book a session</P18>
         </a>
       </header>
