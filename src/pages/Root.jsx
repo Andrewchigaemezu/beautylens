@@ -11,7 +11,6 @@ function RootLayer() {
       <TopInfo />
       <NavBar />
       {modalIsOpen && <Modal />}
-      {/* <br /> */}
       <Outlet />
     </>
   );
