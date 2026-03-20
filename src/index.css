@@ -4,6 +4,7 @@
   box-sizing: border-box;
 }
 :root {
+  color-scheme: light;
   --primary-color: #74057d;
   --primary-color-light: #eac5ed;
   --primary-color-dark: #4f0455;
