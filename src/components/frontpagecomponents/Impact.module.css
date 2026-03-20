@@ -1,0 +1,123 @@
+.impact {
+  width: 95%;
+  height: auto;
+  margin: 0 auto;
+  /* background-color: red; */
+  color: var(--dark-color);
+  margin-bottom: 15.2rem;
+}
+
+.impact_header {
+  margin-bottom: 3.7rem;
+}
+
+.impact_main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.main_problem_card {
+  grid-column: span 2;
+  padding: 1.8rem 9.6rem 8rem 9.6rem;
+  background-color: var(--primary-color-light);
+  border-top-left-radius: 2rem;
+  border-top-right-radius: 2rem;
+  border-bottom-right-radius: 2rem;
+  color: var(--primary-color-dark);
+}
+.main_problem_card h4 {
+  text-align: center;
+  margin-bottom: 0.6rem;
+}
+.main_img_card {
+  background-color: var(--primary-color-light);
+  border-bottom-left-radius: 2rem;
+  border-bottom-right-radius: 2rem;
+}
+.main_img_card img {
+  border-bottom-left-radius: inherit;
+}
+.main_solutn_card {
+  /* height: 40rem; */
+  width: 80%;
+  background-color: var(--tertiary-color);
+  align-self: self-end;
+  justify-self: right;
+  border-radius: 1rem;
+  padding: 2.8rem 1.3rem;
+}
+
+.main_card_first_cont {
+  list-style: none;
+}
+.main_solutn_card h4 {
+  margin-bottom: 3.5rem;
+  text-align: center;
+}
+.main_card_first_cont li {
+  display: flex;
+  align-items: center;
+  column-gap: 3.8rem;
+  margin-bottom: 3.7rem;
+}
+.main_card_first_cont li img {
+  width: 3rem;
+}
+
+.solution_numbs {
+  width: 100%;
+  padding-top: 2.2rem;
+  padding-bottom: 3.7rem;
+  background-color: var(--secondary-color);
+  border-radius: 0.5rem;
+  list-style: none;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
+  text-align: center;
+  padding-left: 1rem;
+}
+
+.soln_numb {
+  font-family: "DM Sans";
+}
+
+/* MEDIA QUERIES */
+@media (max-width: 75em) {
+  .main_solutn_card {
+    width: 95%;
+    margin-top: 5rem;
+  }
+  .main_img_card {
+    width: 100%;
+  }
+  .main_img_card img {
+    width: 100%;
+  }
+}
+@media (max-width: 59em) {
+}
+@media (max-width: 50em) {
+  .impact_main {
+    grid-template-columns: 1fr;
+  }
+  .main_problem_card {
+    grid-column: 1;
+    border-bottom-right-radius: 0;
+  }
+  .main_solutn_card {
+    justify-self: center;
+  }
+}
+@media (max-width: 44em) {
+  .main_problem_card {
+    padding: 1.8rem 4.6rem 3rem 4.6rem;
+  }
+}
+@media (max-width: 31.2em) {
+  .main_problem_card {
+    padding: 1.8rem 1.6rem 3rem 1.6rem;
+  }
+}
+@media (max-width: 23.5em) {
+}

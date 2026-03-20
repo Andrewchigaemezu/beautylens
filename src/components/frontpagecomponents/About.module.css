@@ -1,0 +1,127 @@
+.about {
+  width: 95%;
+  height: auto;
+  margin: 0 auto;
+  /* background-color: red; */
+  color: var(--dark-color);
+  margin-bottom: 11.4rem;
+}
+
+.about_header {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  align-items: center;
+  margin-bottom: 4.3rem;
+}
+.about_section_title {
+  grid-column: span 2;
+}
+
+.about_text {
+  padding-right: 20rem;
+}
+
+.about_header h2 {
+  color: var(--primary-color);
+}
+.about_header h2 span {
+  color: var(--tertiary-color-dark);
+}
+
+.about_main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  /* background-color: blue; */
+  justify-items: center;
+}
+
+.about_main_card {
+  display: grid;
+  grid-template-columns: 0.7fr 1fr;
+  align-items: center;
+  width: 98%;
+  background-color: var(--primary-color-light);
+  text-align: center;
+  padding-top: 3rem;
+  padding-right: 2rem;
+  border-radius: 2rem;
+  color: var(--primary-color-dark);
+}
+
+.about_main_card div h4 {
+  margin-bottom: 1.6rem;
+}
+
+.about_main_card img {
+  width: 100%;
+}
+
+.about_card_btn:link,
+.about_card_btn:visited,
+.about_card_btn_2:link,
+.about_card_btn_2:visited {
+  display: inline-block;
+  padding: 1rem 2rem;
+  border-radius: 3rem;
+  text-decoration: none;
+  margin-top: 2.5rem;
+}
+.about_card_btn:link,
+.about_card_btn:visited {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+}
+.about_card_btn_2:link,
+.about_card_btn_2:visited {
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+}
+
+/* MEDIA QUERIES */
+@media (max-width: 75em) {
+  .about_main_card {
+    padding-bottom: 2rem;
+  }
+  .about_text {
+    padding-right: 5rem;
+  }
+  .about_header {
+    grid-template-columns: 1.5fr 1fr;
+  }
+}
+@media (max-width: 59em) {
+  .about_main {
+    grid-template-columns: 1fr;
+    row-gap: 3rem;
+  }
+}
+@media (max-width: 50em) {
+}
+
+@media (max-width: 44em) {
+  .about_header {
+    grid-template-columns: 1fr;
+    /* row-gap: 2rem; */
+  }
+  .about_section_title {
+    grid-column: 1;
+  }
+  .about_header h2 {
+    grid-row: 2;
+  }
+  .about_text {
+    padding-right: 0;
+  }
+}
+@media (max-width: 31.2em) {
+  .about_main_card {
+    grid-template-columns: 1fr;
+    row-gap: 2rem;
+    padding-right: 0;
+  }
+  .about_main_card div {
+    padding: 0 2rem;
+  }
+}
+@media (max-width: 23.5em) {
+}

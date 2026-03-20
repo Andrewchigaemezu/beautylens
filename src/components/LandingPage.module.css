@@ -1,0 +1,13 @@
+.landing_page {
+  margin: 0 auto;
+  max-width: 144rem;
+  padding-top: 5rem;
+  margin-top: 0.11rem;
+  background-color: var(--secondary-color-light);
+}
+
+@media (max-width: 31.2em) {
+  .landing_page {
+    padding-top: 0;
+  }
+}

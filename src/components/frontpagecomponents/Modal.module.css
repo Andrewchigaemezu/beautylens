@@ -1,0 +1,48 @@
+.modal {
+  width: 100%;
+  height: auto;
+  padding: 3rem 2rem 5rem 2rem;
+  color: var(--dark-color);
+  background-color: var(--secondary-color-light);
+
+  border-bottom: 0.1rem solid var(--grey-color);
+  /* background-color: black; */
+  position: fixed;
+  z-index: 99999;
+  top: 12rem;
+  left: 0;
+}
+.modal ul {
+  list-style: none;
+}
+.modal ul li:not(:last-child) {
+  margin-bottom: 3rem;
+}
+.modal ul li:not(:last-child) a:link,
+.modal ul li:not(:last-child) a:visited {
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+  color: var(--dark-color);
+  font-family: "DM Sans";
+}
+
+.modal ul li:last-child a:link,
+.modal ul li:last-child a:visited {
+  display: inline-block;
+  width: 100%;
+  padding: 1rem 2rem;
+  border-radius: 3rem;
+  background-color: var(--tertiary-color-dark);
+  color: var(--dark-color);
+  text-decoration: none;
+  text-align: center;
+  font-family: "DM Sans";
+  font-weight: 700;
+}
+
+@media (max-width: 31.2em) {
+  .modal {
+    top: 7.5rem;
+  }
+}

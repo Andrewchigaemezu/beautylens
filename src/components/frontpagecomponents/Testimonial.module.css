@@ -1,0 +1,108 @@
+.testimonial {
+  width: 100%;
+  height: auto;
+
+  color: var(--dark-color);
+  margin-bottom: 10.7rem;
+}
+
+.testimonial_header {
+  width: 95%;
+  margin: 0 auto;
+}
+.testimonial_header h4 {
+  margin-bottom: 3.2rem;
+}
+
+.testimonial_main {
+  width: 100%;
+  background-color: var(--secondary-color);
+  padding-top: 16rem;
+  padding-bottom: 13.9rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  align-items: center;
+  position: relative;
+}
+
+.testimonial_card {
+  width: 90%;
+  background-color: var(--tertiary-color);
+  padding: 2.1rem 3.1rem 5rem 3.1rem;
+  border-radius: 1rem;
+}
+
+.card_header {
+  display: flex;
+  column-gap: 2rem;
+  align-items: center;
+}
+/* .card_header img {
+  display: inline-block;
+  border-radius: 0.1rem solid var(--primary-colorw);
+} */
+
+.skew_card {
+  width: 50%;
+  background-color: var(--primary-color-light);
+  padding-top: 2.1rem;
+  padding-bottom: 4.6rem;
+  padding-left: 4.2rem;
+  padding-right: 2.4rem;
+  transform: skewX(-50deg);
+  position: absolute;
+  top: -10rem;
+  left: 25%;
+}
+.skew_card_content {
+  display: grid;
+  grid-template-columns: 0.5fr 2fr 0.5fr;
+  align-items: start;
+  transform: skewX(50deg);
+}
+.skew_card_content p,
+.skew_card_content img:first-child {
+  align-self: center;
+  padding-top: 3rem;
+}
+
+.skew_card_author {
+  transform: skewX(50deg);
+  text-align: right;
+  padding-right: 15rem;
+}
+
+/* MEDIA QUERIES */
+@media (max-width: 75em) {
+}
+@media (max-width: 59em) {
+  .skew_card {
+    width: 70%;
+    left: 15%;
+    transform: skewX(-30deg);
+  }
+  .testimonial_header h4 {
+    margin-bottom: 15.2rem;
+    text-align: center;
+  }
+  .skew_card_content,
+  .skew_card_author {
+    transform: skewX(30deg);
+  }
+}
+@media (max-width: 44em) {
+  .skew_card {
+    display: none;
+  }
+  .testimonial_header h4 {
+    margin-bottom: 3.2rem;
+    text-align: left;
+  }
+  .testimonial_main {
+    grid-template-columns: 1fr;
+    row-gap: 2rem;
+  }
+}
+@media (max-width: 23.5em) {
+}
