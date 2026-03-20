@@ -1,6 +1,8 @@
 import style from "./LandingPage.module.css";
 import About from "./frontpagecomponents/About";
 import Contact from "./frontpagecomponents/Contact";
+import Footer from "./frontpagecomponents/Footer";
+import Gallery from "./frontpagecomponents/Gallery";
 import Hero from "./frontpagecomponents/Hero";
 import Impact from "./frontpagecomponents/Impact";
 import Services from "./frontpagecomponents/Services";
@@ -17,6 +19,8 @@ function LandingPage() {
       <Training />
       <Testimonial />
       <Contact />
+      <Gallery />
+      <Footer />
     </section>
   );
 }

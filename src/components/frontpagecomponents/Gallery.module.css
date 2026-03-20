@@ -1,0 +1,45 @@
+.gallery {
+  overflow: hidden;
+  width: 100%;
+  margin-top: 20rem;
+  margin-bottom: 16.9rem;
+}
+.gallery_header {
+  width: 95%;
+  margin: 0 auto;
+  margin-bottom: 5rem;
+  text-align: center;
+  color: var(--dark-color);
+}
+
+.gallery_track {
+  display: flex;
+  column-gap: 2rem;
+  animation: scroll 20s linear infinite;
+  animation-play-state: running;
+}
+
+.pause {
+  animation-play-state: paused;
+}
+
+.gallery_track img {
+  width: 50rem;
+  height: 50rem;
+  /* margin-right: 10px; */
+}
+
+@keyframes scroll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-700%);
+  }
+}
+
+@media (max-width: 50em) {
+  .gallery_track {
+    animation-duration: 5s;
+  }
+}
