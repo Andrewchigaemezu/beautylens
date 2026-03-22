@@ -53,7 +53,7 @@
   transition: all 0.5s;
 }
 .training_main_list_item:not(:last-child) {
-  margin-bottom: 6rem;
+  margin-bottom: 3rem;
 }
 
 .training_point_detail_cont {
