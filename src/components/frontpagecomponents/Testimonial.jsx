@@ -1,7 +1,6 @@
 import style from "./Testimonial.module.css";
 import H4 from "../../utilities/H4.jsx";
 import { P16B } from "../../utilities/P16.jsx";
-import headshot from "../../assets/img/headshot.png";
 import quote from "../../assets/icon/quote.svg";
 import P18 from "../../utilities/P18.jsx";
 
@@ -15,40 +14,49 @@ function Testimonial() {
       <main className={style.testimonial_main}>
         <figure className={style.testimonial_card}>
           <header className={style.card_header}>
-            <img src={headshot} alt="headshot" />
+            <div
+              className={style.card_header_img_circle}
+              style={{ backgroundImage: "url(/img/woman_test1.jpg)" }}
+            ></div>
             <div>
-              <H4>Peter Pan</H4>
-              <P16B>Software Developer</P16B>
+              <H4>Iruoma Leonord Dike</H4>
+              <P16B>Perfumer</P16B>
             </div>
           </header>
           <P18>
-            Our goal is to create a beauty ecosystem where ability is recognized
-            over limitation, opportunities are ac
+            Through BeautyLens, I discovered perfumery. It gave me independence
+            and a new way to support myself.
           </P18>
         </figure>
         <figure className={style.testimonial_card}>
           <header className={style.card_header}>
-            <img src={headshot} alt="headshot" />
+            <div
+              className={style.card_header_img_circle}
+              style={{ backgroundImage: "url(/img/woman_test2.jpg)" }}
+            ></div>
             <div>
-              <H4>Peter Pan</H4>
-              <P16B>Software Developer</P16B>
+              <H4>Nwachukwu Nneamaka</H4>
+              <P16B>Makeup artist</P16B>
             </div>
           </header>
           <P18>
-            Our goal is to create a beauty ecosystem where ability is recognized
-            over limitation, opportunities are ac
+            BeautyLens gave me confidence and practical makeup skills. Now I
+            earn extra income and feel independent—it truly changed my life.
           </P18>
         </figure>
         <figure className={style.skew_card}>
           <div className={style.skew_card_content}>
-            <img src={headshot} alt="headshot" />
+            <div
+              className={style.card_header_img_circle}
+              style={{ backgroundImage: "url(/img/man_test.jpg)" }}
+            ></div>
             <P18>
-              Our goal is to create a beauty ecosystem where ability is
-              recognized over limitation, opportunities are ac
+              Thanks to BeautyLens, I feel empowered and supported. It truly
+              made a difference in my life.
             </P18>
             <img src={quote} alt="quote" />
           </div>
-          <P18 classname={style.skew_card_author}>Gilbert_</P18>
+          <P18 classname={style.skew_card_author}>Chukwujekwu_</P18>
         </figure>
       </main>
     </section>

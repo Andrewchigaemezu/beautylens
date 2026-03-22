@@ -41,7 +41,7 @@ function About() {
         <figure className={style.about_main_card}>
           <img src={headshot} alt="head shot of a model" />
           <div>
-            <H4>OUR VISSION</H4>
+            <H4>OUR VISION</H4>
             <P18>
               To build an inclusive beauty industry where every woman,
               regardless of physical ability or background, has access to
